@@ -13,6 +13,10 @@
     "./styles.css": {
       "require": "./dist/styles.css",
       "default": "./dist/styles.css"
+    },
+    "./index.d.ts": {
+      "import": "./dist/index.d.ts", 
+      "require": "./dist/index.d.ts"
     }
   },
   "files": [
