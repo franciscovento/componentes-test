@@ -1,22 +1,19 @@
 {
-  "name": "ui",
+  "name": "sullair-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "types": "dist/index.d.ts",
-  "main": "dist/ui.umd.cjs",
+  "main": "dist/sullair-ui.umd.cjs",
   "exports": {
     ".": {
-      "import": "./dist/ui.es.js",
-      "require": "./dist/ui.umd.js"
+      "import": "./dist/sullair-ui.es.js",
+      "require": "./dist/sullair-ui.umd.js",
+      "types": "./dist/index.d.ts"
     },
     "./styles.css": {
       "require": "./dist/styles.css",
       "default": "./dist/styles.css"
-    },
-    "./index.d.ts": {
-      "import": "./dist/index.d.ts", 
-      "require": "./dist/index.d.ts"
     }
   },
   "files": [
@@ -25,13 +22,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && npm run build:css",
-    "build:css": "tailwindcss -m -i ./src/tailwind-entry.css -o ./dist/styles.css",
+    "build:css": "tailwindcss -m -i ./src/app.css -o ./dist/styles.css",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "concurrently \"npm run storybook:css\" \"storybook dev -p 6006\"",
-    "storybook:css": "tailwindcss -w -i ./src/tailwind-entry.css -o ./src/index.css",
+    "storybook:css": "tailwindcss -w -i ./src/app.css -o ./src/index.css",
     "build-storybook": "concurrently \"npm run build-storybook:css\" \"storybook build\"",
-    "build-storybook:css": "tailwindcss -m -i ./src/tailwind-entry.css -o ./src/index.css",
+    "build-storybook:css": "tailwindcss -m -i ./src/app.css -o ./src/index.css",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
@@ -63,5 +60,11 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.0"
+  },
+  "dependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "antd": "^5.22.2",
+    "clsx": "^2.1.1",
+    "react-datepicker": "^7.5.0"
   }
 }

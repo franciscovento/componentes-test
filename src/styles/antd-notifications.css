@@ -1,0 +1,166 @@
+/* MESSAGE */
+
+/* .ant-message {
+  .ant-message-notice-success {
+    .ant-message-notice-content {
+      @apply !bg-app-success-50 !text-app-primary-800;
+    }
+  }
+
+  .ant-message-notice-warning {
+    .ant-message-notice-content {
+      @apply !bg-app-warning-100 !text-app-warning-700;
+    }
+  }
+
+  .ant-message-notice-error {
+    .ant-message-notice-content {
+      @apply !bg-app-error-50 !text-app-error-800;
+    }
+  }
+} */
+
+/* APP MODAL */
+.ant-modal.app-modal {
+  .ant-modal-content {
+    @apply sui-p-6;
+
+    .ant-modal-body {
+      .ant-modal-confirm-title {
+        @apply sui-text-xl sui-font-bold sui-text-app-text-headings;
+      }
+    }
+  }
+}
+
+/* FEEDBACK MODAL */
+.ant-modal.feedback-modal {
+  .ant-modal-content {
+    @apply sui-p-6;
+
+    .ant-modal-body {
+      .ant-modal-confirm-body-wrapper {
+        .ant-modal-confirm-title {
+          @apply sui-text-2xl sui-font-bold sui-text-app-text-headings;
+        }
+
+        .ant-modal-confirm-btns {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          gap: 1rem;
+
+          & > button {
+            margin: 0;
+          }
+
+          & > button:first-child {
+            order: 1;
+          }
+        }
+      }
+    }
+  }
+
+  &.ant-modal-confirm-success {
+    .ant-modal-content {
+      .ant-modal-body {
+        .ant-modal-confirm-body-wrapper {
+          &::before {
+            content: '🎉';
+            font-size: 36px;
+            line-height: 43px;
+          }
+        }
+      }
+    }
+  }
+
+  &.ant-modal-confirm-warning {
+    .ant-modal-content {
+      .ant-modal-body {
+        .ant-modal-confirm-body-wrapper {
+          &::before {
+            content: '⚠️';
+            font-size: 36px;
+            line-height: 43px;
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  /* &.ant-modal-confirm-error {
+    .ant-modal-content {
+      .ant-modal-body {
+        .ant-modal-confirm-body-wrapper {
+          &::before {
+            content: '🎉';
+          }
+        }
+      }
+    }
+  } */
+}
+
+/* Message */
+.ant-message-notice.app-message {
+  .ant-message-notice-content {
+    @apply !sui-p-4 sui-min-w-[434px] sui-rounded-xl;
+  }
+
+  &.ant-message-notice-success {
+    .ant-message-notice-content {
+      @apply sui-border sui-border-app-primary-700 sui-bg-app-primary-25 sui-text-app-primary-800;
+    }
+  }
+
+  &.ant-message-notice-error {
+    .ant-message-notice-content {
+      @apply sui-border sui-border-app-error-200 sui-bg-app-error-100 sui-text-app-error-950;
+    }
+  }
+
+  &.ant-message-notice-warning {
+    .ant-message-notice-content {
+      @apply sui-border sui-border-app-warning-200 sui-bg-app-warning-100 sui-text-app-warning-700;
+    }
+  }
+}
+
+/* NOTIFICATION */
+
+.ant-notification-notice.app-notification {
+  &.ant-notification-notice-success {
+    @apply sui-border sui-border-app-primary-700 sui-bg-app-primary-25  sui-rounded-xl sui-text-app-primary-700;
+
+    .ant-notification-notice-message {
+      @apply sui-text-app-primary-800 sui-font-semibold;
+    }
+  }
+
+  &.ant-notification-notice-error {
+    @apply sui-border sui-border-app-error-200 sui-bg-app-error-100 sui-rounded-xl sui-text-app-error-500;
+
+    .ant-notification-notice-message {
+      @apply sui-text-app-error-950 sui-font-semibold;
+    }
+  }
+
+  &.ant-notification-notice-warning {
+    @apply sui-border sui-border-app-warning-200 sui-bg-app-warning-100 sui-rounded-xl sui-text-app-warning-500;
+
+    .ant-notification-notice-message {
+      @apply sui-text-app-warning-700 sui-font-semibold;
+    }
+  }
+}
+
+/* MODAL */
+.ant-modal-root {
+  .ant-modal-content {
+    @apply !sui-p-6;
+  }
+}

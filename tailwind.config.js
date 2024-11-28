@@ -1,13 +1,23 @@
 /** @type {import('tailwindcss').Config} */
+import themeStyles from './src/lib/theme/themeStyles.json';
+import containerQueries from '@tailwindcss/container-queries';
+
 export default {
-  important: '.ui',
-  prefix: 'ui-',
+  prefix: 'sui-',
+  darkMode: 'selector',
   content: [
-    "./src/**/*.{ts,tsx}"
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: themeStyles.colors,
+    screens: themeStyles.screens,
+    extend: {
+      fontFamily: {
+        nunito: ['Nunito', 'sans-serif'],
+      },
+      boxShadow: themeStyles.boxShadows,
+    },
   },
-  plugins: [],
-}
 
+  plugins: [containerQueries],
+};
