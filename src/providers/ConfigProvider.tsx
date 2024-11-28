@@ -4,10 +4,10 @@ import { FC } from "react";
 
 interface Props {
   children: React.ReactNode;
-  config: ConfigProviderProps
+  config?: ConfigProviderProps
 }
 export const ConfigProvider:FC<Props> = ({children, config}) => {
-  return <AntdConfigProvider theme={ {...theme, ...config.theme} } {...config} >{children}</AntdConfigProvider>;
+  return <AntdConfigProvider theme={ {...theme, ...config?.theme} } {...config} >{children}</AntdConfigProvider>;
 }
 
 export default ConfigProvider;
