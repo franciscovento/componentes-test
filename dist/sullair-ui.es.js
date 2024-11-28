@@ -52608,7 +52608,7 @@ const cq = ({ children: e, ...t }) => /* @__PURE__ */ A.jsx(xm, { ...t, children
       fontSizeLG: 16
     }
   }
-}, Sq = ({ children: e }) => /* @__PURE__ */ A.jsx(_c, { theme: Ew, children: /* @__PURE__ */ A.jsx(aC, { children: e }) }), xq = ({ children: e, appProps: t }) => /* @__PURE__ */ A.jsx(aC, { ...t, children: e }), wq = ({ children: e, config: t }) => /* @__PURE__ */ A.jsx(_c, { theme: { ...Ew, ...t.theme }, ...t, children: e });
+}, Sq = ({ children: e }) => /* @__PURE__ */ A.jsx(_c, { theme: Ew, children: /* @__PURE__ */ A.jsx(aC, { children: e }) }), xq = ({ children: e, appProps: t }) => /* @__PURE__ */ A.jsx(aC, { ...t, children: e }), wq = ({ children: e, config: t }) => /* @__PURE__ */ A.jsx(_c, { theme: { ...Ew, ...t == null ? void 0 : t.theme }, ...t, children: e });
 export {
   YK as ActionButton,
   qK as Alert,

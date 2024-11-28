@@ -9,7 +9,7 @@ import { isArray } from '@/utils/validations';
 import es from 'date-fns/locale/es';
 import { FC, useState } from 'react';
 import ReactDatePicker, { registerLocale } from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
+// import 'react-datepicker/dist/react-datepicker.css';
 import { Button } from '../../buttons';
 import { Divider } from '../../divider';
 import { Switch } from '../switch';

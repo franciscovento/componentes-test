@@ -3,7 +3,7 @@ import { FC } from 'react';
 
 interface Props {
     children: React.ReactNode;
-    appProps: AppProps;
+    appProps?: AppProps;
 }
 export declare const App: FC<Props>;
 export default App;
