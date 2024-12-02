@@ -1,6 +1,6 @@
-export * from './alert/Alert';
+// export * from './alert/Alert';
 // export * from './avatar/Avatar';
-export * from './buttons';
+// export * from './buttons';
 // export * from './cards';
 // export * from './divider/Divider';
 // export * from './inputs';
@@ -18,3 +18,7 @@ export * from './buttons';
 // export * from './upload/Upload';
 // export * from './upload/variants/CustomUpload';
 // export * from './upload/variants/DraggerUpload';
+export { default as ActionButton } from './buttons/action-button/ActionButton';
+export { default as Button } from './buttons/button/Button';
+export { default as Alert } from './alert/Alert';
+
