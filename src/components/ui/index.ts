@@ -1,6 +1,6 @@
 // export * from './alert/Alert';
 // export * from './avatar/Avatar';
-// export * from './buttons';
+export * from './buttons';
 // export * from './cards';
 // export * from './divider/Divider';
 // export * from './inputs';
