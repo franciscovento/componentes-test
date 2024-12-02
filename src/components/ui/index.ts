@@ -1,4 +1,4 @@
-// export * from './alert/Alert';
+export * from './alert/Alert';
 // export * from './avatar/Avatar';
 export * from './buttons';
 // export * from './cards';
