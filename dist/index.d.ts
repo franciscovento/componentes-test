@@ -1,9 +1,11 @@
 /// <reference types="react" />
 
 import { AlertProps } from 'antd';
+import { AppProps } from 'antd';
 import { AvatarProps } from 'antd';
 import { ButtonProps as ButtonProps_2 } from 'antd';
 import { CheckboxProps } from 'antd';
+import { ConfigProviderProps } from 'antd';
 import { default as default_2 } from 'react';
 import { DividerProps } from 'antd';
 import { FC } from 'react';
@@ -33,6 +35,10 @@ declare interface ActionButtonProps extends React.ComponentPropsWithRef<'button'
 
 export declare const Alert: FC<AlertProps>;
 
+export declare const AntdProvider: FC<Props_24>;
+
+export declare const App: FC<Props_25>;
+
 export declare const Avatar: FC<Props>;
 
 export declare const BaseCard: FC<Props_2>;
@@ -43,6 +49,8 @@ declare interface ButtonProps extends ButtonProps_2 {
 }
 
 export declare const Checkbox: FC<Props_7>;
+
+export declare const ConfigProvider: FC<Props_26>;
 
 export declare const CustomSteps: FC<StepsProps>;
 
@@ -158,6 +166,20 @@ declare interface Props_22 {
 
 declare interface Props_23 {
     children: default_2.ReactNode;
+}
+
+declare interface Props_24 {
+    children: default_2.ReactNode;
+}
+
+declare interface Props_25 {
+    children: React.ReactNode;
+    appProps?: AppProps;
+}
+
+declare interface Props_26 {
+    children: React.ReactNode;
+    config?: ConfigProviderProps;
 }
 
 declare interface Props_3 {
