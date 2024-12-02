@@ -3,7 +3,7 @@ import type { ThemeConfig } from 'antd';
 import themeStyles from './themeStyles.json';
 
 
-const theme: ThemeConfig = {
+export const theme: ThemeConfig = {
   cssVar: {
     prefix: 'antd',
   },
