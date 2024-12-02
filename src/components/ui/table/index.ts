@@ -1,3 +1,3 @@
-export * from './Table.stories';
-export * from './Table';
-export * from './Table.types';
+
+export {Table} from './Table';
+

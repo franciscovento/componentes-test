@@ -1,3 +1,4 @@
-export * from './Steps.stories';
-export * from './Steps';
-export * from './Steps.types';
+
+export {Steps} from './Steps';
+export {CustomSteps} from './variants/CustomSteps'
+

@@ -26,6 +26,11 @@ import { ThemeConfig } from 'antd';
 import { TooltipProps } from 'antd';
 import { UploadProps } from 'antd';
 
+export declare const ActionButton: FC<ActionButtonProps>;
+
+declare interface ActionButtonProps extends React.ComponentPropsWithRef<'button'> {
+}
+
 export declare const Alert: FC<AlertProps>;
 
 export declare const Avatar: FC<Props>;
@@ -39,15 +44,21 @@ declare interface ButtonProps extends ButtonProps_2 {
 
 export declare const Checkbox: FC<Props_7>;
 
+export declare const CustomSteps: FC<StepsProps>;
+
+export declare const CustomUpload: FC<Props_21>;
+
 export declare const DatePicker: FC<Props_8>;
 
 export declare const Divider: FC<Props_6>;
+
+export declare const DraggerUpload: FC<Props_21>;
 
 export declare const IconsStory: FC<Props_22>;
 
 export declare const InformationCard: FC<Props_3>;
 
-export declare interface InformationItem {
+declare interface InformationItem {
     label: string | default_2.ReactNode;
     content: string | default_2.ReactNode;
     action?: default_2.ReactNode;
@@ -56,8 +67,6 @@ export declare interface InformationItem {
 export declare const Input: ForwardRefExoticComponent<Props_9 & RefAttributes<InputRef>>;
 
 export declare const MetricCard: FC<Props_4>;
-
-export declare const notificationIcons: Record<'success' | 'info' | 'warning' | 'error', React.ReactNode>;
 
 export declare const Pagination: FC<Props_14>;
 
@@ -199,6 +208,8 @@ export declare const Radio: FC<Props_10>;
 
 export declare const Select: FC<Props_11>;
 
+export declare const SimplePagination: FC<Pick<Props_14, 'total' | 'current' | 'onChange' | 'pageSize'>>;
+
 export declare const Steps: FC<Props_15>;
 
 declare type StepsVariants = 'default' | 'custom';
@@ -338,8 +349,6 @@ declare type TitleTypes = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 declare type TitleVariants = 'xl' | 'lg' | 'md' | 'sm';
 
 export declare const Tooltip: FC<TooltipProps>;
-
-export declare const TooltipStory: FC<TooltipProps>;
 
 export declare const TourTooltipCard: FC<Props_18>;
 

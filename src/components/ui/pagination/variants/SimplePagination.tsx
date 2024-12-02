@@ -3,7 +3,7 @@ import SvgLeftArrow from '@/components/svg/SvgLeftArrow';
 import { FC, useEffect, useState } from 'react';
 import { Props } from '../Pagination.types';
 
-const SimplePagination: FC<
+export const SimplePagination: FC<
   Pick<Props, 'total' | 'current' | 'onChange' | 'pageSize'>
 > = ({ current = 0, onChange, total, pageSize = 10 }) => {
   const [currentPage, setCurrentPage] = useState(current);

@@ -1,2 +1,2 @@
-// export * from './action-button/ActionButton';
-export * from './button/Button';
+export {ActionButton} from './action-button/ActionButton';
+export {Button} from './button/Button';

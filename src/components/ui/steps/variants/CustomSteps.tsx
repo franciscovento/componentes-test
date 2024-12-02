@@ -2,7 +2,7 @@
 import { SvgStepDot } from '@/components/svg';
 import { Steps as AntdSteps, StepsProps } from 'antd';
 import { FC, useEffect, useState } from 'react';
-const CustomSteps: FC<StepsProps> = ({ items, ...stepsProps }) => {
+export const CustomSteps: FC<StepsProps> = ({ items, ...stepsProps }) => {
   const [newItems, setNewItems] = useState<StepsProps[]>([]);
 
   useEffect(() => {

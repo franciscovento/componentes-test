@@ -1,2 +1,2 @@
-export * from './text/Text';
-export * from './title/Title';
+export {Text} from './text/Text';
+export {Title} from './title/Title';

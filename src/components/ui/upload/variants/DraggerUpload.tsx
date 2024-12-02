@@ -5,7 +5,7 @@ import { Props } from '../Upload.types';
 
 const { Dragger } = Upload;
 
-const DraggerUpload: FC<Props> = ({ ...uploadProps }) => {
+export const DraggerUpload: FC<Props> = ({ ...uploadProps }) => {
   return (
     <Dragger {...uploadProps}>
       <p>

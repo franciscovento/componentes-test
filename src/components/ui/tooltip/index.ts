@@ -1,3 +1,3 @@
-export * from './Tooltip.stories';
-export * from './Tooltip';
-export * from './Tooltip.types';
+
+export {Tooltip} from './Tooltip';
+

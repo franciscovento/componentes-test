@@ -1,3 +1,3 @@
-export * from './Avatar.stories';
-export * from './Avatar';
-export * from './Avatar.types';
+
+export {Avatar} from './Avatar';
+

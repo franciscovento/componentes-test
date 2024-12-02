@@ -1,4 +1,4 @@
-export * from './Pagination.stories';
-export * from './Pagination';
-export * from './Pagination.types';
-export * from './variants/SimplePagination';
+
+export {Pagination} from './Pagination';
+
+export {SimplePagination} from './variants/SimplePagination';
