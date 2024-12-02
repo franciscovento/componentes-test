@@ -3,7 +3,7 @@ import { FC } from 'react';
 
 interface ActionButtonProps extends React.ComponentPropsWithRef<'button'> {}
 
-const ActionButton: FC<ActionButtonProps> = ({
+export const ActionButton: FC<ActionButtonProps> = ({
   children,
   className,
   ...buttonProps
