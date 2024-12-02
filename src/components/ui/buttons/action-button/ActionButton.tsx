@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import { FC } from 'react';
 
-interface Props extends React.ComponentPropsWithRef<'button'> {}
-export const ActionButton: FC<Props> = ({
+export interface ActionButtonProps extends React.ComponentPropsWithRef<'button'> {}
+export const ActionButton: FC<ActionButtonProps> = ({
   children,
   className,
   ...buttonProps
