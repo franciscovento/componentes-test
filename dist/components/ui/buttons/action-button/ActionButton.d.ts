@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-interface Props extends React.ComponentPropsWithRef<'button'> {
+export interface ActionButtonProps extends React.ComponentPropsWithRef<'button'> {
 }
-export declare const ActionButton: FC<Props>;
+export declare const ActionButton: FC<ActionButtonProps>;
 export default ActionButton;
