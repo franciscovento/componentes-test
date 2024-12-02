@@ -1,8 +1,7 @@
 import { FC } from 'react';
-import { ButtonProps } from 'antd';
+import { ButtonProps as AntdButtonProps } from 'antd';
 
-export declare const ButtonTypes: string[];
-interface Props extends ButtonProps {
+interface ButtonProps extends AntdButtonProps {
 }
-export declare const Button: FC<Props>;
+export declare const Button: FC<ButtonProps>;
 export default Button;

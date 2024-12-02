@@ -1,12 +1,12 @@
-import { Button as AntdButton, ButtonProps } from 'antd';
+import { Button as AntdButton, ButtonProps as AntdButtonProps } from 'antd';
+import clsx from 'clsx';
 import { FC } from 'react';
 
-export const ButtonTypes = ['default', 'primary', 'dashed', 'link', 'text'];
 
-interface Props extends ButtonProps {}
+interface ButtonProps extends AntdButtonProps {}
 
-export const Button: FC<Props> = ({ children, ...restProps }) => {
-  return <AntdButton {...restProps}>{children}</AntdButton>;
+export const Button: FC<ButtonProps> = ({ children, ...restProps }) => {
+  return <AntdButton className={clsx("sui-shadow-2xl")} {...restProps}>{children}</AntdButton>;
 };
 
 export default Button;

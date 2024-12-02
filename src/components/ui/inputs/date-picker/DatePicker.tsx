@@ -10,7 +10,7 @@ import es from 'date-fns/locale/es';
 import { FC, useState } from 'react';
 import ReactDatePicker, { registerLocale } from 'react-datepicker';
 // import 'react-datepicker/dist/react-datepicker.css';
-import { Button } from '../../buttons';
+import { Button } from '../../buttons/button/Button';
 import { Divider } from '../../divider';
 import { Switch } from '../switch';
 import { Props } from './DatePicker.types';

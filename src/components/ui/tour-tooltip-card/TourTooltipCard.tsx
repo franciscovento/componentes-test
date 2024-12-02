@@ -1,7 +1,7 @@
 import { SvgXMark } from '@/components/svg';
 import { FC } from 'react';
 import { Avatar } from '../avatar';
-import { Button } from '../buttons';
+import { Button } from '../buttons/button/Button';
 import { Text } from '../typography';
 import { Props } from './TourTooltipCard.types';
 
