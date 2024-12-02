@@ -7,4 +7,3 @@ export const TestComponent = () => {
   )
 }
 
-export default TestComponent;
