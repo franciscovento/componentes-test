@@ -1,7 +1,18 @@
 /// <reference types="react" />
 
+import { ButtonProps as ButtonProps_2 } from 'antd';
 import { default as default_2 } from 'react';
 import { FC } from 'react';
+
+export declare const ActionButton: FC<ActionButtonProps>;
+
+declare interface ActionButtonProps extends React.ComponentPropsWithRef<'button'> {
+}
+
+export declare const Button: FC<ButtonProps>;
+
+declare interface ButtonProps extends ButtonProps_2 {
+}
 
 declare interface Props {
     children: default_2.ReactNode;
