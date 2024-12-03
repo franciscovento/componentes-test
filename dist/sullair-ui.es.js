@@ -3014,5 +3014,5 @@ export {
   L9 as SvgTruckOutline,
   w9 as SvgWarningTriangle,
   j9 as SvgXMark,
-  m9 as theme
+  m9 as sullairTheme
 };

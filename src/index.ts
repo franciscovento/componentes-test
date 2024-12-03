@@ -1,3 +1,3 @@
 export * from '@/components/ui'
 export * from '@/components/svg';
-export * from './lib/theme/themeConfig';
+export {default as sullairTheme } from '@/lib/theme/themeConfig';

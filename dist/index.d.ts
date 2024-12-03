@@ -19,6 +19,8 @@ declare interface Props {
     children: default_2.ReactNode;
 }
 
+export declare const sullairTheme: ThemeConfig;
+
 export declare const SvgArrowCircleRight: FC<SvgProps>;
 
 export declare const SvgArrowDown: FC<SvgProps>;
@@ -125,7 +127,5 @@ export declare const SvgTruckOutline: FC<SvgProps>;
 export declare const SvgWarningTriangle: FC<SvgProps>;
 
 export declare const SvgXMark: FC<SvgProps>;
-
-export declare const theme: ThemeConfig;
 
 export { }
