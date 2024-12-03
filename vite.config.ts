@@ -7,7 +7,7 @@ import path from 'path';
 export default defineConfig({
   plugins: [
     react(),
-    dts({ insertTypesEntry: true, exclude: ["**/*.stories.tsx", "**/*.test.tsx"], rollupTypes: true}),
+    dts({ insertTypesEntry: true, exclude: ["**/*.stories.tsx", "**/*.test.tsx"]}),
   ],
   resolve: {
     alias: {
@@ -25,7 +25,7 @@ export default defineConfig({
     
     rollupOptions: { 
       external: Object.keys(peerDependencies), 
-      output: { globals: { react: 'React', 'react-dom': 'ReactDOM', antd: "antd" } } 
+      output: { globals: { react: 'React', 'react-dom': 'ReactDOM' } } 
     }
   },
 })
