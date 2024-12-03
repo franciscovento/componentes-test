@@ -2605,7 +2605,7 @@ const O0 = ({ ...o }) => /* @__PURE__ */ r.jsxs(
       }
     )
   }
-), B0 = {
+), R9 = () => /* @__PURE__ */ r.jsx("div", { children: "CustomComponent" }), B0 = {
   error: /* @__PURE__ */ r.jsx(
     E0,
     {
@@ -2624,7 +2624,7 @@ const O0 = ({ ...o }) => /* @__PURE__ */ r.jsxs(
     }
   ),
   info: /* @__PURE__ */ r.jsx(W0, { width: 24, height: 24, className: "sui-block sui-mr-4" })
-}, R9 = ({
+}, _9 = ({
   showIcon: o = !0,
   icon: a,
   type: u = "success",
@@ -2637,7 +2637,7 @@ const O0 = ({ ...o }) => /* @__PURE__ */ r.jsxs(
     ...p,
     icon: a || B0[u]
   }
-), _9 = ({ ...o }) => /* @__PURE__ */ r.jsx(v0, { ...o });
+), Z9 = ({ ...o }) => /* @__PURE__ */ r.jsx(v0, { ...o });
 function B1(o) {
   var a, u, p = "";
   if (typeof o == "string" || typeof o == "number")
@@ -2657,7 +2657,7 @@ function y() {
     (o = arguments[u]) && (a = B1(o)) && (p && (p += " "), p += a);
   return p;
 }
-const Z9 = ({
+const D9 = ({
   children: o,
   className: a,
   ...u
@@ -2674,7 +2674,7 @@ const Z9 = ({
       /* @__PURE__ */ r.jsx("span", { className: "sui-flex-1 sui-text-left", children: o })
     ] })
   }
-), D9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(k0, { className: y("sui-shadow-2xl"), ...a, children: o }), T9 = ({ children: o, className: a }) => /* @__PURE__ */ r.jsx(
+), T9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(k0, { className: y("sui-shadow-2xl"), ...a, children: o }), A9 = ({ children: o, className: a }) => /* @__PURE__ */ r.jsx(
   "div",
   {
     className: y([
@@ -2683,7 +2683,7 @@ const Z9 = ({
     ]),
     children: o
   }
-), A9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(w0, { ...a, children: o }), P9 = ({
+), P9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(w0, { ...a, children: o }), O9 = ({
   className: o,
   children: a,
   ...u
@@ -2721,7 +2721,7 @@ const Z9 = ({
   ] })
 );
 V0.displayName = "Input";
-const O9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(j0, { ...a, children: o }), I9 = ({
+const I9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(j0, { ...a, children: o }), N9 = ({
   children: o,
   labelClassName: a,
   error: u,
@@ -2761,7 +2761,7 @@ const O9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(j0, { ...a, children
       children: u || p
     }
   )
-] }), N9 = ({ ...o }) => /* @__PURE__ */ r.jsx(y0, { ...o }), { TextArea: R0 } = W1, $9 = ({
+] }), $9 = ({ ...o }) => /* @__PURE__ */ r.jsx(y0, { ...o }), { TextArea: R0 } = W1, z9 = ({
   label: o,
   required: a,
   error: u,
@@ -2788,7 +2788,7 @@ const O9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(j0, { ...a, children
       children: u || p
     }
   )
-] }), z9 = ({
+] }), Y9 = ({
   ...o
 }) => /* @__PURE__ */ r.jsx(M0, { ...o }), _0 = {
   "app-text-body": "#344054",
@@ -2908,7 +2908,7 @@ const O9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(j0, { ...a, children
   screens: Z0,
   boxShadows: D0,
   fontSizes: T0
-}, Y9 = {
+}, U9 = {
   cssVar: {
     prefix: "antd"
   },
@@ -3109,17 +3109,18 @@ const O9 = ({ children: o, ...a }) => /* @__PURE__ */ r.jsx(j0, { ...a, children
   }
 };
 export {
-  Z9 as ActionButton,
-  R9 as Alert,
-  _9 as Avatar,
-  T9 as BaseCard,
-  D9 as Button,
-  P9 as Checkbox,
-  A9 as Divider,
+  D9 as ActionButton,
+  _9 as Alert,
+  Z9 as Avatar,
+  A9 as BaseCard,
+  T9 as Button,
+  O9 as Checkbox,
+  R9 as CustomComponent,
+  P9 as Divider,
   V0 as Input,
-  z9 as Pagination,
-  O9 as Radio,
-  I9 as Select,
+  Y9 as Pagination,
+  I9 as Radio,
+  N9 as Select,
   I0 as SvgArrowCircleRight,
   b0 as SvgArrowDown,
   N0 as SvgArrowLeft,
@@ -3172,7 +3173,7 @@ export {
   B9 as SvgTruckOutline,
   F0 as SvgWarningTriangle,
   V9 as SvgXMark,
-  N9 as Switch,
-  $9 as Textarea,
-  Y9 as sullairTheme
+  $9 as Switch,
+  z9 as Textarea,
+  U9 as sullairTheme
 };
