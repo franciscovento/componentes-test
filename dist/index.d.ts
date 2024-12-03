@@ -2,6 +2,7 @@
 
 import { AlertProps } from 'antd';
 import { AvatarProps } from 'antd';
+import { ButtonProps as ButtonProps_2 } from 'antd';
 import { CheckboxProps } from 'antd';
 import { default as default_2 } from 'react';
 import { DividerProps } from 'antd';
@@ -34,6 +35,11 @@ export declare const Alert: FC<AlertProps>;
 export declare const Avatar: FC<Props>;
 
 export declare const BaseCard: FC<Props_2>;
+
+export declare const Button: FC<ButtonProps>;
+
+declare interface ButtonProps extends ButtonProps_2 {
+}
 
 export declare const Checkbox: FC<Props_7>;
 

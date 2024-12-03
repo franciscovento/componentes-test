@@ -3323,6 +3323,7 @@ export {
   s9 as Alert,
   N0 as Avatar,
   _1 as BaseCard,
+  W1 as Button,
   e2 as Checkbox,
   K0 as CustomUpload,
   r2 as Divider,
