@@ -1,9 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { TooltipStory } from './Tooltip';
+import Tooltip from './Tooltip';
+import Button from '../buttons/button/Button';
 
-const meta: Meta<typeof TooltipStory> = {
+
+const meta: Meta<typeof Tooltip> = {
   title: 'UI/Tooltip',
-  component: TooltipStory,
+  component: Tooltip,
   parameters: {
     layout: 'centered',
   },
@@ -38,9 +40,13 @@ const meta: Meta<typeof TooltipStory> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof TooltipStory>;
+type Story = StoryObj<typeof Tooltip>;
 
 export const Playground: Story = {
+  render: (args) => 
+    <Tooltip  {...args}>
+      <Button>Hover me</Button>
+    </Tooltip>,
   args: {
     title: 'Tooltip',
     placement: 'top',

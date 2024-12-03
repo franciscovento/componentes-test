@@ -1,6 +1,6 @@
 // export {Alert} from './alert/Alert';
 // export {Avatar} from './avatar/Avatar';
-export {ActionButton, Button} from './buttons';
+export {ActionButton} from './buttons';
 // export {BaseCard, InformationCard, MetricCard, SummaryCard} from './cards';
 // export { Divider} from './divider/Divider';
 // export {Checkbox, DatePicker, Input, Radio, Select, Switch, Textarea} from './inputs';
