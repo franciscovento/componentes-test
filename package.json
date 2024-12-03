@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "module": "dist/sullair-ui.es.js",
   "types": "dist/index.d.ts",
   "main": "dist/sullair-ui.umd.cjs",
   "exports": {
