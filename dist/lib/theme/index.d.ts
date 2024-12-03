@@ -1,1 +1,0 @@
-export { sullairTheme } from './themeConfig';
