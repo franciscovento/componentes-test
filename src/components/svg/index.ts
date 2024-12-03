@@ -1,6 +1,4 @@
 export * from './Logo';
-export * from './stories/Icons.stories';
-export * from './stories/IconsStory';
 export * from './SvgArrowCircleRight';
 export * from './SvgArrowDown';
 export * from './SvgArrowLeft';

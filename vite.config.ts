@@ -7,7 +7,7 @@ import path from 'path';
 export default defineConfig({
   plugins: [
     react(),
-    dts({ insertTypesEntry: true, exclude: ["**/*.stories.tsx", "**/*.test.tsx"], rollupTypes: true}, ),
+    dts({ insertTypesEntry: true, exclude: ["**/*.stories.tsx", "**/*.stories.ts", "**/*.test.tsx"], rollupTypes: true}, ),
   ],
   resolve: {
     alias: {

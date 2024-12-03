@@ -1,34 +1,11 @@
 /// <reference types="react" />
 
-import { ButtonProps as ButtonProps_2 } from 'antd';
 import { default as default_2 } from 'react';
 import { FC } from 'react';
-import { StoryObj } from '@storybook/react';
-import { ThemeConfig } from 'antd';
-
-export declare const ActionButton: FC<ActionButtonProps>;
-
-declare interface ActionButtonProps extends React.ComponentPropsWithRef<'button'> {
-}
-
-export declare const Button: FC<ButtonProps>;
-
-declare interface ButtonProps extends ButtonProps_2 {
-}
-
-export declare const IconsStory: FC<Props>;
-
-export declare const Playground: Story;
 
 declare interface Props {
-    textColor: string;
-}
-
-declare interface Props_2 {
     children: default_2.ReactNode;
 }
-
-declare type Story = StoryObj<typeof IconsStory>;
 
 export declare const SvgArrowCircleRight: FC<SvgProps>;
 
@@ -46,7 +23,7 @@ export declare const SvgChart: FC<SvgProps>;
 
 export declare const SvgCheckList: FC<SvgProps>;
 
-export declare const SvgCircleContainer: FC<Props_2>;
+export declare const SvgCircleContainer: FC<Props>;
 
 export declare const SvgCrown: FC<SvgProps>;
 
@@ -136,7 +113,5 @@ export declare const SvgTruckOutline: FC<SvgProps>;
 export declare const SvgWarningTriangle: FC<SvgProps>;
 
 export declare const SvgXMark: FC<SvgProps>;
-
-export declare const theme: ThemeConfig;
 
 export { }
