@@ -3,6 +3,7 @@
 import { ButtonProps as ButtonProps_2 } from 'antd';
 import { default as default_2 } from 'react';
 import { FC } from 'react';
+import { ThemeConfig } from 'antd';
 
 export declare const ActionButton: FC<ActionButtonProps>;
 
@@ -124,5 +125,7 @@ export declare const SvgTruckOutline: FC<SvgProps>;
 export declare const SvgWarningTriangle: FC<SvgProps>;
 
 export declare const SvgXMark: FC<SvgProps>;
+
+export declare const theme: ThemeConfig;
 
 export { }
