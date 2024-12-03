@@ -3,7 +3,7 @@ import { FC } from 'react';
 
 
 
-export const Pagination: FC<PaginationProps> = ({
+const Pagination: FC<PaginationProps> = ({
   ...paginationProps
 }) => {
 

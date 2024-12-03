@@ -5,7 +5,7 @@ import { FC } from 'react';
 
 interface ButtonProps extends AntdButtonProps {}
 
-export const Button: FC<ButtonProps> = ({ children, ...restProps }) => {
+const Button: FC<ButtonProps> = ({ children, ...restProps }) => {
   return <AntdButton className={clsx("sui-shadow-2xl")} {...restProps}>{children}</AntdButton>;
 };
 

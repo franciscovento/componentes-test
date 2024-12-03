@@ -5,7 +5,7 @@ import { DividerProps } from 'antd';
  
 interface Props extends DividerProps {}
 
-export const Divider: FC<Props> = ({ children, ...dividerProps }) => {
+const Divider: FC<Props> = ({ children, ...dividerProps }) => {
   return <AntdDivider {...dividerProps}>{children}</AntdDivider>;
 };
 

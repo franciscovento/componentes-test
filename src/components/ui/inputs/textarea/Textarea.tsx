@@ -12,7 +12,7 @@ interface Props extends TextAreaProps {
 }
 
 const { TextArea } = Input;
-export const Textarea: FC<Props> = ({
+const Textarea: FC<Props> = ({
   label,
   required,
   error,

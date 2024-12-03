@@ -1,3 +1,0 @@
-
-export {TourTooltipCard } from './TourTooltipCard';
-

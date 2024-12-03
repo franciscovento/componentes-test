@@ -3,7 +3,7 @@ import { FC } from 'react';
 
 
 
-export const Switch: FC<SwitchProps> = ({  ...switchProps }) => {
+const Switch: FC<SwitchProps> = ({  ...switchProps }) => {
 
 
 

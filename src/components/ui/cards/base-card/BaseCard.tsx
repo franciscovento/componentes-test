@@ -6,7 +6,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export const BaseCard: FC<Props> = ({ children, className }) => {
+const BaseCard: FC<Props> = ({ children, className }) => {
   return (
     <div
       className={clsx([

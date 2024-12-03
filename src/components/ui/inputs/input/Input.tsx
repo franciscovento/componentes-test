@@ -9,7 +9,7 @@ interface Props extends InputProps {
   labelClassName?: string;
 }
 
-export const Input = forwardRef<InputRef, Props>(
+const Input = forwardRef<InputRef, Props>(
   (
     { label, error, assistiveText, labelClassName, required, ...inputProps },
     ref

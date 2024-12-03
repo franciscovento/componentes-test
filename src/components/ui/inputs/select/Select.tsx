@@ -11,7 +11,7 @@ interface Props extends SelectProps {
   required?: boolean;
 }
 
-export const Select: FC<Props> = ({
+const Select: FC<Props> = ({
   children,
   labelClassName,
   error,

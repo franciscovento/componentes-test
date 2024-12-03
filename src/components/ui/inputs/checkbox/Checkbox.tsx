@@ -4,7 +4,7 @@ import { FC } from 'react';
 
 interface Props extends CheckboxProps {}
 
-export const Checkbox: FC<Props> = ({
+const Checkbox: FC<Props> = ({
   className,
   children,
   ...checkBoxProps

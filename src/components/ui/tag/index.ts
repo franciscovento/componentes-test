@@ -1,3 +1,0 @@
-
-export {Tag} from './Tag';
-
