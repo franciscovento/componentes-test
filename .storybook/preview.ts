@@ -1,5 +1,5 @@
 import type { Preview } from "@storybook/react";
-import AntdDecorator from '../src/lib/theme/AntdDecorator';
+import AntdDecorator from '../providers/AntdDecorator';
 import '../src/index.css';
 
 const preview: Preview = {
@@ -12,9 +12,6 @@ const preview: Preview = {
     },
   },
   decorators: [AntdDecorator],
-  
-  
-  
 };
 
 export default preview;

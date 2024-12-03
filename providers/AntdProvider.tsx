@@ -1,4 +1,4 @@
-import theme from '../lib/theme/themeConfig';
+import theme from '../src/lib/theme/themeConfig';
 import { App, ConfigProvider } from 'antd';
 import React, { FC } from 'react';
 
