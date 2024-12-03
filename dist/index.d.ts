@@ -10,7 +10,6 @@ import { FC } from 'react';
 import { ForwardRefExoticComponent } from 'react';
 import { InputProps } from 'antd';
 import { InputRef } from 'antd';
-import { JSX as JSX_2 } from 'react/jsx-runtime';
 import { PaginationProps } from 'antd';
 import { RadioProps } from 'antd';
 import { RefAttributes } from 'react';
@@ -37,7 +36,7 @@ declare interface ButtonProps extends ButtonProps_2 {
 
 export declare const Checkbox: FC<Props_3>;
 
-export declare const CustomComponent: () => JSX_2.Element;
+export declare const CustomComponent: FC<SvgProps>;
 
 export declare const Divider: FC<Props_2>;
 

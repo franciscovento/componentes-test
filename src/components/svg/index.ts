@@ -51,4 +51,4 @@ export * from './SvgTruckFill';
 export * from './SvgTruckOutline';
 export * from './SvgWarningTriangle';
 export * from './SvgXMark';
-export * from './CustomComponent'
+export * from './CustomComponent';
