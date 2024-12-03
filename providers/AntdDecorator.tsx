@@ -1,3 +1,4 @@
+import React from 'react';
 import {AntdProvider} from '.';
 import { StoryFn } from '@storybook/react';
 

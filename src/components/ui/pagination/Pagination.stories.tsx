@@ -9,12 +9,6 @@ const meta: Meta<typeof Pagination> = {
     layout: 'padded',
   },
   argTypes: {
-    variant: {
-      control: {
-        type: 'select',
-        options: ['default', 'simple'],
-      },
-    },
   },
   args: {
     onChange: fn(),

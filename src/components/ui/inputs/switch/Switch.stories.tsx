@@ -12,10 +12,6 @@ const meta: Meta<typeof Switch> = {
       control: 'select',
       options: ['default', 'small'],
     },
-    variant: {
-      control: 'select',
-      options: ['default', 'label'],
-    },
   },
 };
 
@@ -25,13 +21,11 @@ type Story = StoryObj<typeof Switch>;
 export const Playground: Story = {
   args: {
     size: 'default',
-    variant: 'default',
   },
 };
 
 export const SwitchLabel: Story = {
   args: {
     size: 'default',
-    variant: 'label',
   },
 };

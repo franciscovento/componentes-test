@@ -15,10 +15,6 @@ const meta: Meta<typeof Steps> = {
     current: {
       control: 'number',
     },
-    variant: {
-      control: 'select',
-      options: ['default', 'custom'],
-    },
   },
 };
 
@@ -27,7 +23,7 @@ type Story = StoryObj<typeof Steps>;
 
 export const Playground: Story = {
   args: {
-    variant: 'default',
+
     responsive: false,
   },
 };
