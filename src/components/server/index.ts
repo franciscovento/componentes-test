@@ -1,1 +1,1 @@
-export { default  as ActionButton } from '@/components/server/action-button/ActionButton'
+export { default  as TestCompo } from '@/components/server/testCompo/TestCompo'

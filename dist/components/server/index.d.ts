@@ -1,1 +1,1 @@
-export { default as ActionButton } from './action-button/ActionButton';
+export { default as TestCompo } from './testCompo/TestCompo';
