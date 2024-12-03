@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && npm run build:css",
-    "build:css": "tailwindcss -m -i ./src/app.css -o ./dist/styles.css",  
+    "build:css": "tailwindcss -m -i ./src/app.css -o ./dist/styles.css",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "concurrently \"npm run storybook:css\" \"storybook dev -p 6006\"",
@@ -32,9 +32,9 @@
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
+    "antd": "^5.22.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "antd": "^5.22.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.3.3",
