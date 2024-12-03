@@ -3,7 +3,7 @@ import type { ThemeConfig } from 'antd';
 import themeStyles from './themeStyles.json';
 
 
-export const theme: ThemeConfig = {
+export const sullairTheme: ThemeConfig = {
   cssVar: {
     prefix: 'antd',
   },
@@ -210,4 +210,4 @@ export const theme: ThemeConfig = {
   },
 };
 
-export default theme;
+export default sullairTheme;

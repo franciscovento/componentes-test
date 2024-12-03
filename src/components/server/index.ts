@@ -1,1 +1,0 @@
-export { default  as TestCompo } from '@/components/server/testCompo/TestCompo'

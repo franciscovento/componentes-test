@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import themeStyles from './src/lib/theme/themeStyles.json';
+import themeStyles from './src/components/theme/themeStyles.json';
 import containerQueries from '@tailwindcss/container-queries';
 
 export default {
