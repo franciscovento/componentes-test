@@ -4,7 +4,7 @@ import { default as default_2 } from 'react';
 import { FC } from 'react';
 import { ThemeConfig } from 'antd';
 
-export declare const ActionButton: FC<ActionButtonProps>;
+export declare const ActionButton: React.FC<ActionButtonProps>;
 
 declare interface ActionButtonProps extends React.ComponentPropsWithRef<'button'> {
 }
